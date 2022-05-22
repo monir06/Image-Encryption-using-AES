@@ -10,7 +10,7 @@ import tkinter.messagebox
 from PIL import Image,ImageTk
 import hashlib
 import enc_script
-
+import os
 def pass_alert():
    tkinter.messagebox.showinfo("Password Alert","Please enter a password.")
 
