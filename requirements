@@ -4,6 +4,8 @@ echo ". ${PWD}/conda.sh" >> ~/.bashrc
 or,
 echo ". '${PWD}'/conda.sh" >> ~/.bashrc
 
+https://discuss.codecademy.com/t/setting-up-conda-in-git-bash/534473
+
 restart all terminal
 
 conda activate
