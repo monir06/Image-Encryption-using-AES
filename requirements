@@ -1,10 +1,27 @@
-C:\Program Files\Miniconda3\etc\profile.d
+---- Adding new ssh key to github
+  - ssh-keygen
+  - clip<~/.ssh/id_rsa.pub
+  - paste it in github->settings->In the "Access" section of the sidebar, click SSH and GPG keys.
+  - Click New SSH key or Add SSH key.
+  - In the "Title" field, add a descriptive label for the new key. For example, if you're using a personal Mac, you might call this key "Personal MacBook Air".
+  - Paste your key into the "Key" field. 
+  - Click Add SSH key. If prompted, confirm your GitHub password.  
+
+----Solution to conda command not found in git bash
+  - see this => https://discuss.codecademy.com/t/setting-up-conda-in-git-bash/534473
+  - alternatively on the conda path  C:\Program Files\Miniconda3\etc\profile.d     
+  - there are 2 files
+  - git bash there
+  - paste below code and hit enter
 
 echo ". ${PWD}/conda.sh" >> ~/.bashrc
 or,
 echo ". '${PWD}'/conda.sh" >> ~/.bashrc
 
-https://discuss.codecademy.com/t/setting-up-conda-in-git-bash/534473
+
+
+
+
 
 restart all terminal
 
@@ -17,3 +34,6 @@ pip install tk
 conda install -c conda-forge pillow
 conda install -c anaconda pycrypto
 conda install -c jmcmurray os
+
+
+** on vs code install python extension for easy run
